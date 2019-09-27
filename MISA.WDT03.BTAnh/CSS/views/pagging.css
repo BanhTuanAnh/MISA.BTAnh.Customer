@@ -1,0 +1,124 @@
+﻿#footer {
+    height: 30px;
+    margin:15px 20px;
+
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+#result {
+    height: 30px;
+  
+    float: right;
+    display: inline-flex;
+    align-items: center;
+}
+
+    #result p {
+        margin-left: 3px;
+    }
+
+#page-controller {
+    height: 30px;
+    float: left;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+    #page-controller .back, #page-controller .forward {
+        display: flex;
+    }
+
+    #page-controller .pagging-icon, #page-controller input, #page-controller select {
+        margin: 0px 10px;
+    }
+
+    #page-controller input {
+        width: 35px;
+        height: 20px;
+        text-align: center;
+        padding: 2px 2px;
+        border:1px solid #d0d0d0;
+        
+    }
+
+    #page-controller select {
+        width: 50px;
+        height: 27px;
+        text-align: center;
+        padding: 2px 2px;
+        border: 1px solid #d0d0d0;
+    }
+
+    #page-controller .pagging-icon {
+
+        width: 30px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        #page-controller .pagging-icon:hover {
+            background-color: #f2f2f2;
+        }
+
+    #page-controller .back {
+        margin: 0 5px;
+    }
+
+        #page-controller .back .back-icon {
+            background: url('/Contents/images/page-prev.png') center no-repeat;
+            width: 15px;
+            height: 25px;
+        }
+
+        #page-controller .back .mul-back-icon {
+            background: url('/Contents/images/page-first.png') center no-repeat;
+            width: 15px;
+            height: 25px;
+        }
+
+    #page-controller .forward {
+     
+        margin:0 5px;
+
+    }
+
+        #page-controller .forward .forward-icon {
+            background: url('/Contents/images/page-next.png') no-repeat center;
+            width: 15px;
+            height: 25px;
+        }
+
+        #page-controller .forward .mul-forward-icon {
+            background: url('/Contents/images/page-last.png') no-repeat center;
+            width: 15px;
+            height: 25px;
+        }
+    #page-controller .table-reload {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0px 5px;
+    }
+        #page-controller .table-reload:hover {
+            background-color: #f2f2f2;
+        }
+#page-controller .reload-icon {
+    background: url('/Contents/images/refresh.png') no-repeat center;
+    width: 30px;
+    height: 25px;
+}
+    #page-controller .wall {
+        height: 17px;
+        border: 1px solid #d0d0d0;
+    }
+    #page-controller .pageIndex-info {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }

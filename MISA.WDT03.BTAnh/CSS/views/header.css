@@ -1,0 +1,201 @@
+﻿/*
+    Chỉnh sửa chi tiết giao diện cho phần header
+    Người tạo VDThang 17/05/2019
+*/
+.x-btn-button-center{
+    justify-content:center;
+}
+
+
+
+
+.menu-header-item {
+    width: calc(100% - 170px);
+    height: 50px;
+    position: absolute;
+    left: 182px;
+    top: 0;
+    text-align: center;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.count-money {
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.detail-book {
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 145px;
+    height: 100%;
+}
+
+.menu-header-item a {
+    position: absolute;
+    text-decoration: none;
+    color: #0088c2;
+    font-weight: 500;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+}
+
+    .menu-header-item a:hover {
+        color: #02697b;
+        font-weight: 500;
+    }
+.header-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0399d8;
+}
+.header-bottom {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 100%;
+
+}
+    .header-bottom .title-header {
+        align-items: center;
+        margin-left: 21px;
+        height: 52px;
+
+        display: flex;
+    
+    }
+        .header-bottom .title-header .title-header-content {
+            font-weight: bold;
+            font-size: 16px !important;
+            text-align: right;
+        }
+        .header-bottom .title-header .dictionary-name {
+            color: #1baafe;
+
+        }
+    .header-bottom .iccls-title {
+        background: url('/Contents/images/IconSprite.png') no-repeat 0px -1248px;
+        
+        width: 17px;
+        height: 15px;
+        margin: 0 10px;
+    }
+    .header-bottom .button-group {
+        align-items: center;
+        margin-right: 21px;
+        height: 52px;
+        display: flex;
+    }
+        .header-bottom .button-group button {
+            color:black;
+            margin:5px;
+            background-color:#fff;
+            border:1px solid #d0d0d0;
+            height: 30px;
+            padding:0 10px;
+        }
+        .header-bottom .button-group button:hover{
+            
+            background-color: #d0d0d0;
+            
+        }
+    .header-bottom .button-group .viewmail-btn {
+        display:flex;
+        align-items:center;
+
+    }
+        .header-bottom .button-group .viewmail-btn .iccls-viewmail {
+            background: url('../../Contents/images/viewEmail.png') center no-repeat;
+            width:20px;
+            height:30px;
+            margin-right:5px;
+        }
+/*
+    Phần bên phải của header
+    Người tạo VDThang 17/05/2019
+*/
+.header-right {
+    float: right;
+    height: 100%;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+ .header-top .top-select {
+        width: 200px;
+        margin-left: 21px;
+    }
+    .header-top select {
+        background-color: #194aea;
+        color: #fff;
+        border-color: #194aea;
+        width: 100%;
+    }
+.header-left {
+    float: left;
+    height: 100%;
+  
+}
+   
+.header-right .user-panel {
+    color:#fff;
+    display: flex;
+    line-height: 52px;
+    margin-left: 15px;
+    margin-right: 21px;
+    font-weight: bold;
+}
+
+
+.contain-over {
+ 
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+/*
+    Chỉnh sửa các icon trong phần header
+    Người tạo VDThang 17/05/2019
+*/
+.header-right .icon {
+    width: 46px;
+}
+
+.icon.helpcenter {
+    background: url('/Contents/images/icon_help_18.png') no-repeat center center;
+}
+
+.icon.notification {
+    background: url('/Contents/images/notify-18.png') no-repeat center center;
+}
+
+.img-user {
+    width: 28px;
+    height: 28px;
+    background-image: url('/Contents/images/User.jpg');
+    background-size: 28px;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+.header-right .user-panel .arrow-down-white {
+    height: 52px;
+}
+
+.header .cbo-header {
+    height: 32px;
+    padding: 7px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
